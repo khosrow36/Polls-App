@@ -1,0 +1,12 @@
+body {
+    background-color: #2E3440;
+    color: #fff;
+}
+
+li a {
+    color: #5E81AC;
+}
+
+a, a:visited {
+    color: #88C0D0;
+}
