@@ -1,4 +1,5 @@
 from django.urls import path
+from django.contrib import admin
 
 from . import views
 
@@ -13,3 +14,5 @@ urlpatterns = [
     # /polls/5/vote/
     path('<int:question_id>/vote/', views.vote, name='vote'),
 ]
+admin.site.site_header = 'Polls Administration Panel'
+admin.site.site_title = 'Polls'
